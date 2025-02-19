@@ -4131,6 +4131,10 @@ figcaption {
   left: -93px;
 }
 
+.navbar1_logo {
+  transform: rotate(2deg);
+}
+
 .navbar1_menu-buttons {
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
@@ -4249,7 +4253,7 @@ figcaption {
 }
 
 .text-block-2 {
-  color: #fff;
+  color: #616161;
   text-align: left;
   margin-top: 0;
   margin-bottom: 0;
@@ -4366,7 +4370,7 @@ figcaption {
 }
 
 .page-padding-3 {
-  padding: 100px 5% 60px;
+  padding: 40px 5% 20px;
 }
 
 .footer1_legal-link {
@@ -5185,7 +5189,7 @@ figcaption {
   margin-right: 0;
 }
 
-.background-video {
+.background-video-10 {
   justify-content: center;
   align-items: center;
   padding-top: 400px;
@@ -6052,7 +6056,7 @@ figcaption {
 .section-61 {
   color: #000;
   text-transform: uppercase;
-  background-color: #b2b2ab;
+  background-color: #fff;
   border: 0 #000;
   border-width: 4px 0 15px;
   justify-content: center;
@@ -6077,7 +6081,7 @@ figcaption {
 }
 
 .heading-70 {
-  color: #fff;
+  color: #979797;
   text-align: left;
   letter-spacing: 0;
   margin-top: 0;
@@ -6568,6 +6572,8 @@ figcaption {
 
 .button-11 {
   color: #000;
+  white-space: nowrap;
+  word-break: keep-all;
   background-color: #fff;
   border: 1px solid #636363;
   border-radius: 0;
@@ -6725,8 +6731,15 @@ figcaption {
   position: static;
 }
 
+.background-video-9._1 {
+  height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 .flex-block {
   flex-flow: row;
+  flex: 0 auto;
   justify-content: center;
   align-items: center;
   width: 200px;
@@ -6945,7 +6958,8 @@ figcaption {
   }
 
   .menu-icon1_line-top {
-    background-color: #fff;
+    color: #000;
+    background-color: #000;
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -6986,7 +7000,7 @@ figcaption {
 
   .navbar1_menu {
     -webkit-text-fill-color: inherit;
-    background-color: #000;
+    background-color: #929292;
     background-clip: border-box;
     border-bottom: 1px solid #000;
     padding: 1rem 5% 2rem;
@@ -7001,7 +7015,8 @@ figcaption {
   }
 
   .menu-icon1_line-middle {
-    background-color: #fff;
+    color: #000;
+    background-color: #000;
     justify-content: center;
     align-items: center;
     width: 24px;
@@ -7014,7 +7029,8 @@ figcaption {
   }
 
   .menu-icon1_line-bottom {
-    background-color: #fff;
+    color: #000;
+    background-color: #000;
     width: 24px;
     height: 2px;
     padding-bottom: 0;
@@ -7386,9 +7402,14 @@ figcaption {
   }
 
   .heading-71._1 {
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
     flex-flow: row;
-    margin-top: 60px;
-    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    font-size: 36px;
+    line-height: 36px;
   }
 
   .heading-71._3 {
@@ -7448,6 +7469,10 @@ figcaption {
     grid-auto-flow: column;
   }
 
+  .headimg {
+    align-self: center;
+  }
+
   .container-97 {
     margin-left: 50px;
     margin-right: 50px;
@@ -7466,11 +7491,17 @@ figcaption {
     height: 700px;
   }
 
+  .background-video-9._1 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
   .flex-block {
-    grid-column-gap: 13px;
-    grid-row-gap: 13px;
+    grid-column-gap: 19px;
+    grid-row-gap: 19px;
     flex-flow: row;
-    width: 50px;
+    width: 100px;
+    margin-bottom: 0;
     position: static;
   }
 }
@@ -7899,7 +7930,7 @@ figcaption {
   .flex-block {
     grid-column-gap: 10px;
     grid-row-gap: 10px;
-    flex-flow: column;
+    flex-flow: row;
     width: 75px;
   }
 }
@@ -8503,8 +8534,8 @@ figcaption {
 
   .heading-71._1 {
     flex-flow: row;
-    margin-top: 0;
-    margin-bottom: 24px;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding-top: 0;
     padding-right: 0;
   }
@@ -8683,6 +8714,7 @@ figcaption {
   }
 
   .flex-block {
+    flex-flow: column;
     width: 90px;
   }
 }
